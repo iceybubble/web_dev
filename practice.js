@@ -17,7 +17,7 @@ const Product = {
 console.log(Product);
 */
 
-
+/*
 
 let score = prompt("enter your score");
 let grade;
@@ -34,7 +34,7 @@ grade = "A";
     grade = "F"
 }
 console.log("according to your scores your grade was : ", grade);
-
+*/
 
 //practice 4--> find all the even number between 1 to 100
 
@@ -69,10 +69,17 @@ console.log(userName);*/
 
 
 
+//   Functions
 
-
-
-
+function countVowels(str){
+    let count = 0;
+    for (const char of str){
+        if(char==="a" || char === "e" || char==="i" || char==="o" || char === "u");{
+            count ++;
+        }
+    }
+    console.log(count);
+}
 
 
 
