@@ -53,3 +53,42 @@ companies.splice(2,1,"Ola");
 companies.push("Amazon");
 
 console.log(companies);
+
+
+//map method
+
+let nums = [67, 52, 39];
+
+nums.map((val) => {
+    console.log(val);
+});
+let calcSquare = (num) => {
+    console.log(num * num);
+};
+
+//Filter method
+/*
+let Arr = [1,2,3,4,5,6,7,];
+
+let evenArr = arr.filter((val) => {
+    return val % 2===0;
+});
+console.log(evenArr);
+*/
+
+let Arr = [1,2,3,4,5,6,7,];
+
+let evenArr = arr.filter((val) => {
+    return val > 3;
+});
+console.log(evenArr);
+
+//Reduce method
+
+const array1 = [1,2,3,4];
+
+// 0+1+2+3+4
+const output = arr.reduce((res,curr) => {
+    return res + curr;
+});
+console.log(output);
