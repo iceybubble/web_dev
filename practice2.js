@@ -12,7 +12,7 @@ console.log(toppers);
 
 
 //question 2
-
+/*
 let n = prompt ("enter a number: ");
 
 let arr = [];
@@ -37,3 +37,41 @@ let factorial = arr.reduce((res, curr)=>{
 });
 
 console.log("factorial=", factorial);
+*/
+
+// practice question on DOM
+
+/*let h2 = document.querySelector("h2");
+console.dir(h2.innerText);
+
+h2.innerText = h2.innerText + " from my side ";
+
+
+// question 2
+
+let divs = document.querySelectorAll(".box");
+
+let idx = 1;
+for(div of divs){
+    div.innerText = `new unique value ${idx}`;
+    idx++;
+}
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
